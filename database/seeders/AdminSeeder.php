@@ -30,9 +30,5 @@ class AdminSeeder extends Seeder
 
         $admin->assignRole('admin');
         $banksampah->assignRole('bank_sampah');
-
-        $this->command->info(' Admin user created successfully!');
-        $this->command->info('  Email: admin@dlh.go.id');
-        $this->command->info('  Password: password');
     }
 }
