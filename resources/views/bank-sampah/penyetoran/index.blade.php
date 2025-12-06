@@ -157,10 +157,6 @@
                                             </div>
                                         </td>
                                         <td class="px-6 py-4 text-sm font-medium text-right whitespace-nowrap">
-                                            <a href="{{ route('bank-sampah.penyetoran.show', $item) }}" 
-                                               class="mr-3 text-blue-600 hover:text-blue-900">
-                                                Detail
-                                            </a>
                                             <a href="{{ route('bank-sampah.penyetoran.edit', $item) }}" 
                                                class="mr-3 text-indigo-600 hover:text-indigo-900">
                                                 Edit
