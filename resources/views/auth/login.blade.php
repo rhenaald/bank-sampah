@@ -120,7 +120,7 @@
 
                 <!-- Footer -->
                 <div class="mt-8 text-xs text-center text-gray-500">
-                    <p>© 2024 Bank Sampah. Semua hak dilindungi.</p>
+                    <p>© 2025 Bank Sampah. Semua hak dilindungi.</p>
                 </div>
             </div>
         </div>
