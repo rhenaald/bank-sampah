@@ -78,7 +78,6 @@
                                         </span>
                                     </td>
                                     <td class="px-6 py-4 text-sm font-medium whitespace-nowrap">
-                                        <a href="{{ route('admin.jenis-sampah.show', $jenis) }}" class="mr-3 text-blue-600 hover:text-blue-900">Detail</a>
                                         <a href="{{ route('admin.jenis-sampah.edit', $jenis) }}" class="mr-3 text-indigo-600 hover:text-indigo-900">Edit</a>
                                         <form action="{{ route('admin.jenis-sampah.destroy', $jenis) }}" method="POST" class="inline" onsubmit="return confirm('Yakin ingin menghapus jenis sampah ini?')">
                                             @csrf
